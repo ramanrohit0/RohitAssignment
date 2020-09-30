@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-30T08:43:48.091Z",
+        "line": 20,
+        "name": "To Validate the Email",
+        "description": "",
+        "id": "to-login/registration-into-the-website-and-validate-the-below-things;to-validate-the-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created\nfrom chrome not reachable\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-9P9L1CA0\u0027, ip: \u0027192.168.0.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x011ED383+3134339]\n\tOrdinal0 [0x010DA171+2007409]\n\tOrdinal0 [0x00F7AD90+568720]\n\tOrdinal0 [0x00F71364+529252]\n\tOrdinal0 [0x00F719FC+530940]\n\tOrdinal0 [0x00F72C15+535573]\n\tOrdinal0 [0x00F6DFC5+516037]\n\tOrdinal0 [0x00F7BF70+573296]\n\tOrdinal0 [0x00F21916+203030]\n\tOrdinal0 [0x00F20C1D+199709]\n\tOrdinal0 [0x00F1EB0B+191243]\n\tOrdinal0 [0x00F02E77+77431]\n\tOrdinal0 [0x00F03E3E+81470]\n\tOrdinal0 [0x00F03DC9+81353]\n\tOrdinal0 [0x010F0CD9+2100441]\n\tGetHandleVerifier [0x0135B75A+1396954]\n\tGetHandleVerifier [0x0135B3D9+1396057]\n\tGetHandleVerifier [0x01367126+1444518]\n\tGetHandleVerifier [0x0135BCE8+1398376]\n\tOrdinal0 [0x010E7F51+2064209]\n\tOrdinal0 [0x010F22EB+2106091]\n\tOrdinal0 [0x010F2411+2106385]\n\tOrdinal0 [0x011049C4+2181572]\n\tBaseThreadInitThunk [0x766C6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77EC7C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77EC7BF4+180]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyInto(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.evaluate(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.findFirst(Unknown Source)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat stepslogin.Steps.the_login_application_should_be_launched(Steps.java:19)\r\n\tat ✽.The login application should be launched(file:///C:/SopraSpace/Rohit/src/test/resources/Login/Login.feature:21)\r\n",
+              "duration": 16020000000,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "The login application should be launched",
+            "match": {
+              "location": "stepslogin.Steps.the_login_application_should_be_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter the username as \u0027ramanrohit\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027ramanrohit\u0027",
+                  "offset": 24
+                }
+              ],
+              "location": "stepslogin.Steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I enter the password as \u0027abc@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027abc@123\u0027",
+                  "offset": 24
+                }
+              ],
+              "location": "stepslogin.Steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepslogin.Steps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I validate the Email",
+            "match": {
+              "location": "stepslogin.Steps.i_validate_the_email()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T08:44:04.367Z",
+        "line": 28,
+        "name": "To compose and send email",
+        "description": "",
+        "id": "to-login/registration-into-the-website-and-validate-the-below-things;to-compose-and-send-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22867000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The login application should be launched",
+            "match": {
+              "location": "stepslogin.Steps.the_login_application_should_be_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter the username as \u0027ramanrohit\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027ramanrohit\u0027",
+                  "offset": 24
+                }
+              ],
+              "location": "stepslogin.Steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2188000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter the password as \u0027abc@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027abc@123\u0027",
+                  "offset": 24
+                }
+              ],
+              "location": "stepslogin.Steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11473000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepslogin.Steps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20987000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I compose and send email",
+            "match": {
+              "location": "stepslogin.Steps.i_compose_and_send_email()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "To login/Registration into the website and Validate the below things",
+    "description": "1. Validate able to register successfully\n2. To validate the Email.\n3. To Compose and Send email.",
+    "id": "to-login/registration-into-the-website-and-validate-the-below-things",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="74.633">
+<testcase classname="To login/Registration into the website and Validate the below things" name="To Validate the Email" time="16.221">
+<failure message="session not created&#10;from chrome not reachable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9P9L1CA0', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x011ED383+3134339]&#10;&#9;Ordinal0 [0x010DA171+2007409]&#10;&#9;Ordinal0 [0x00F7AD90+568720]&#10;&#9;Ordinal0 [0x00F71364+529252]&#10;&#9;Ordinal0 [0x00F719FC+530940]&#10;&#9;Ordinal0 [0x00F72C15+535573]&#10;&#9;Ordinal0 [0x00F6DFC5+516037]&#10;&#9;Ordinal0 [0x00F7BF70+573296]&#10;&#9;Ordinal0 [0x00F21916+203030]&#10;&#9;Ordinal0 [0x00F20C1D+199709]&#10;&#9;Ordinal0 [0x00F1EB0B+191243]&#10;&#9;Ordinal0 [0x00F02E77+77431]&#10;&#9;Ordinal0 [0x00F03E3E+81470]&#10;&#9;Ordinal0 [0x00F03DC9+81353]&#10;&#9;Ordinal0 [0x010F0CD9+2100441]&#10;&#9;GetHandleVerifier [0x0135B75A+1396954]&#10;&#9;GetHandleVerifier [0x0135B3D9+1396057]&#10;&#9;GetHandleVerifier [0x01367126+1444518]&#10;&#9;GetHandleVerifier [0x0135BCE8+1398376]&#10;&#9;Ordinal0 [0x010E7F51+2064209]&#10;&#9;Ordinal0 [0x010F22EB+2106091]&#10;&#9;Ordinal0 [0x010F2411+2106385]&#10;&#9;Ordinal0 [0x011049C4+2181572]&#10;&#9;BaseThreadInitThunk [0x766C6359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77EC7C24+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77EC7BF4+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[Given The login application should be launched..............................failed
+When I enter the username as 'ramanrohit'...................................skipped
+And I enter the password as 'abc@123'.......................................skipped
+And I click on Login button.................................................skipped
+Then I validate the Email...................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9P9L1CA0', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x011ED383+3134339]
+	Ordinal0 [0x010DA171+2007409]
+	Ordinal0 [0x00F7AD90+568720]
+	Ordinal0 [0x00F71364+529252]
+	Ordinal0 [0x00F719FC+530940]
+	Ordinal0 [0x00F72C15+535573]
+	Ordinal0 [0x00F6DFC5+516037]
+	Ordinal0 [0x00F7BF70+573296]
+	Ordinal0 [0x00F21916+203030]
+	Ordinal0 [0x00F20C1D+199709]
+	Ordinal0 [0x00F1EB0B+191243]
+	Ordinal0 [0x00F02E77+77431]
+	Ordinal0 [0x00F03E3E+81470]
+	Ordinal0 [0x00F03DC9+81353]
+	Ordinal0 [0x010F0CD9+2100441]
+	GetHandleVerifier [0x0135B75A+1396954]
+	GetHandleVerifier [0x0135B3D9+1396057]
+	GetHandleVerifier [0x01367126+1444518]
+	GetHandleVerifier [0x0135BCE8+1398376]
+	Ordinal0 [0x010E7F51+2064209]
+	Ordinal0 [0x010F22EB+2106091]
+	Ordinal0 [0x010F2411+2106385]
+	Ordinal0 [0x011049C4+2181572]
+	BaseThreadInitThunk [0x766C6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepslogin.Steps.the_login_application_should_be_launched(Steps.java:19)
+	at ✽.The login application should be launched(file:///C:/SopraSpace/Rohit/src/test/resources/Login/Login.feature:21)
+]]></failure>
+</testcase>
+<testcase classname="To login/Registration into the website and Validate the below things" name="To compose and send email" time="57.68">
+<system-out><![CDATA[Given The login application should be launched..............................passed
+When I enter the username as 'ramanrohit'...................................passed
+And I enter the password as 'abc@123'.......................................passed
+And I click on Login button.................................................passed
+Then I compose and send email...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
